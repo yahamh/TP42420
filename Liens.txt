@@ -1,0 +1,9 @@
+Serveur Json:
+https://api.myjson.com/bins/1e7h4g
+
+Liens Github:
+	TP1:
+	https://github.com/yahamh/TP12420.git
+
+	TP2:
+	https://github.com/yahamh/TP42420.git

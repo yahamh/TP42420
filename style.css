@@ -1,0 +1,73 @@
+/* Style the header with a blue background and some padding */
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header {
+    position: absolute;
+    background-color: #2196F3;
+    padding: 7.5px 10px;
+    width : 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* Style the header links */
+.header a {
+    font-family: Roboto;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style  logo link */
+
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Float link section to right */
+.header-right {
+    position:absolute;
+    right:80px;
+    padding: 15px;
+    width: 70px;
+}
+.header-right2 {
+    position:absolute;
+    right:30px;
+    padding: 15px;
+    width: 70px;
+}
+
+.sidemenu{
+    font-family: Roboto;
+    height: 82px;
+    width: 145px;
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    left: 0;
+    overflow-x: hidden;
+    background: #fff;
+    padding-top: 0px;
+}
+
+.sidemenu a{
+    padding: 6px 6px 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #494848;
+    display: block;
+}
+
+.sidemenu a:hover {
+    background-color: #a09f9f;
+}
