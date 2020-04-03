@@ -1,0 +1,235 @@
+/* Style the header with a blue background and some padding */
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header {
+    position: absolute;
+    background-color: #2196F3;
+    padding: 7.5px 10px;
+    width : 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* Style the header links */
+.header a {
+    font-family: Roboto;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style  logo link */
+
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Float link section to right */
+.header-right {
+    position:absolute;
+    right:80px;
+    padding: 15px;
+    width: 70px;
+}
+.header-right2 {
+    position:absolute;
+    right:30px;
+    padding: 15px;
+    width: 70px;
+}
+
+#corps{
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.material-icons.md-18 {
+    font-size: 24px; color:white;
+}
+
+
+body {
+    background: #F2F2F2;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+h4 {
+    font-family: Arial;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.card {
+    display: inline-block;
+}
+
+.cardbis{
+    display: block;
+}
+
+.cardformat {
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-left: 22px;
+    box-shadow: 2px 1px 3px rgba(0,0,0,0.12), 0  2px rgba(0,0,0,0.24);
+}
+
+.cardformat-2 {
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding-left: 22px;
+    box-shadow: 2px 1px 3px rgba(0,0,0,0.12), 0  2px rgba(0,0,0,0.24);
+}
+
+.card-1 {
+    left:30px;
+    width: 356px;
+    height: 700px;
+}
+
+.card-2 {
+    left:470px;
+    width: 356px;
+    height: 700px;
+}
+
+.card-4 {
+    left: 910px; 
+    height: 400px;
+    width: 249px;
+}
+
+.card-3 {
+    left:910px;
+    width: 249px;
+    height: 212px;
+}
+
+.divSujetsCheckbox {
+    height: 40px;
+    width: 230px;
+}
+
+.sujetsLabel {
+    word-wrap: break-word;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.nomChoix {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.nomDetails {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-left:23px;
+    font-weight: lighter;
+    color: #767676;
+}
+
+.button {
+  font-family: Roboto;
+  background-color: #2096F3; 
+  color: white;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 214px;
+  height: 36px;
+}
+
+button:disabled,
+button[disabled] {
+  opacity: 0.6;
+  background: gray;
+  color: black;
+}
+
+
+
+#diva{
+    display:flex;
+    flex-direction: column;
+}
+
+#dvFederaux{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.divPrincipal {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#dvProvinciaux{
+    display:flex;
+    flex-direction: column;
+}
+
+#sujetsDiv, #actionDiv{
+    display:flex;
+    flex-direction: column;
+}
+
+#DIV2{
+    display:flex;
+    flex-direction: column;
+}
+#DIV3{
+    display:flex;
+    flex-direction: column;
+}
+
+#sujetHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+#checkboxSelectAllSujets {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.nomChoix {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left:5px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.nomDetails {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-left:5px;
+    font-weight: lighter;
+    color: #767676;
+}

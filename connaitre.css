@@ -1,0 +1,388 @@
+.header {
+    position: absolute;
+    background-color: #2196F3;
+    padding: 7.5px 10px;
+    width : 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* Style the header links */
+.header a {
+    font-family: "Roboto";
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style  logo link */
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Float link section to right */
+.header-right {
+    position:absolute;
+    right:80px;
+    padding: 15px;
+    width: 70px;
+}
+
+.header-right2 {
+    position:absolute;
+    right:30px;
+    padding: 15px;
+    width: 70px;
+}
+
+.star {
+    position:absolute;
+    display:inline-block;
+    color:rgb(51, 51, 51);
+    font-family:'Material Icons';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.material-icons.md-18 {
+    font-size: 24px; color:white;
+}
+
+#div_fleche {
+    margin-left: 14%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#fleche {
+    font-family:"Material Icons";
+    font-weight:bold;
+    font-size:28px;
+    cursor: pointer;
+    color:#757575;
+    text-decoration: none;
+}
+
+/* Les classes "normal1" et "normal2" sont utilisees pour
+pouvoir distinguer les divs au fond gris des divs au fond blanc (voir le fichier JavaScript) */
+
+/* Cette classe est utilisee pour pouvoir reconnaitre un div au fond gris */
+/*
+.normal1 {
+
+}
+*/
+/* Cette classe est utilisee pour pouvoir reconnaitre un div au fond blanc */
+/*
+.normal2 {
+
+}
+*/
+
+#star_square_normal1 {
+    margin-top: 15px;
+    margin-left: 880px;
+    height : 47px;
+    width: 65px;
+    position: absolute;
+    background-color: rgba(227,227,227);
+    cursor: pointer;
+}
+
+#star_square_normal2 {
+    margin-top: 15px;
+    margin-left: 880px;
+    height : 47px;
+    width: 65px;
+    position: absolute;
+    background-color:white;
+    cursor: pointer;
+}
+
+
+#star_square_replacement {
+    margin-top: 15px;
+    margin-left: 880px;
+    height : 47px;
+    width: 65px;
+    position: absolute;
+    background-color:rgba(121, 121, 122, 1);
+    cursor: pointer;
+}
+
+#star_jaune {
+    font-family: 'Material Icons Bold', 'Material Icons Regular', 'Material Icons';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:#FFFF80;
+    margin-top: 4px;
+    margin-left: 12px;
+    position: absolute;
+    user-select: none;
+}
+
+#star_noire {
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color:black;
+    margin-top: 11px;
+    margin-left: 20px;
+    position: absolute;
+    user-select: none;
+}
+
+body {
+    background: #F2F2F2;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#scroll_bar{
+    height: 780px;
+    overflow: auto;
+    position: relative;
+    width:1065px;
+    margin-left: 0.9%;
+    margin-right: auto;
+    border-width: 1px;
+    display: inline-block;
+}
+
+h2 {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 400;  
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+.p1 {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.titre {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+#bloc1 {
+    text-align: left;
+    display:inline-block;
+    width:1033px;
+    margin-left: 1px;
+    height:73px;
+    background-color:rgba(227,227,227);
+}
+
+.bloc2 {
+    text-align: left;
+    display:inline-block;
+    width:1031px;
+    height:73px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: grey;
+    outline-color: grey;
+    font-size: 20px;
+    border-color:rgba(215,215,215,1);
+    border-width: 1px;
+    border-style: solid;
+    justify-content: space-around;
+}
+
+.bloc3 {
+    display:inline-block;
+    width:1031px;
+    height:235px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 14px;
+    border-color:rgba(215,215,215,1);
+    border-width: 1px;
+    border-style: solid;
+    text-align:left;
+    justify-content: space-around;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#body {
+    position: absolute;
+    top: 180px;
+}
+
+
+#checkboxDiv {
+    position: absolute;
+    left: 25%;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#div_fleche{
+    position: absolute;
+    top:50px;
+}
+
+.divSujetsCheckbox {
+    width: 200px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#checkboxLigne1, #checkboxLigne2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .divSujetsCheckbox {
+        width: 200px;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 14px;
+        height: 200px;
+    }
+
+    #checkboxDiv {
+        position: absolute;
+        left: 280px;
+        top: 110px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #checkboxLigne1, #checkboxLigne2 {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    #body {
+        position: absolute;
+        top: 300px;
+        width:100%;
+    }
+
+    #div_fleche{
+        position: absolute;
+        top:70px;
+    }
+
+    #scroll_bar{
+        height: 780px;
+        overflow: auto;
+        position: relative;
+        width:850px;
+        margin-left: 0.9%;
+        margin-right: auto;
+        border-width: 1px;
+        display: inline-block;
+    }
+    #bloc1 {
+        text-align: left;
+        display:inline-block;
+        width:770px;
+        margin-left: 1px;
+        height:73px;
+        background-color:rgba(227,227,227);
+    }
+
+    #star_square_normal1 {
+        margin-top: 15px;
+        margin-left: 660px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color: rgba(227,227,227);
+        cursor: pointer;
+    }
+
+    #star_square_normal2 {
+        margin-top: 15px;
+        margin-left: 670px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color:white;
+        cursor: pointer;
+    }
+
+    #star_square_replacement {
+        margin-top: 15px;
+        margin-left: 665px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color:rgba(121, 121, 122, 1);
+        cursor: pointer;
+    }
+
+        
+    .bloc2 {
+        text-align: left;
+        display:inline-block;
+        width:800px;
+        height:73px;
+        background-color:white;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: grey;
+        outline-color: grey;
+        font-size: 20px;
+        border-color:rgba(215,215,215,1);
+        border-width: 1px;
+        border-style: solid;
+        justify-content: space-around;
+    }
+
+    .bloc3 {
+        display:inline-block;
+        width:800px;
+        height:235px;
+        background-color:white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Arial;
+        font-weight: 400;
+        font-size: 14px;
+        border-color:rgba(215,215,215,1);
+        border-width: 1px;
+        border-style: solid;
+        text-align:left;
+        justify-content: space-around;
+    }
+
+}

@@ -1,0 +1,15 @@
+ @import url("connaitre.css");
+
+#titre_global {
+    display: flex;
+    flex-direction: row;
+}
+
+#parti_titre {
+    padding-top: 3px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+}
+

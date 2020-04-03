@@ -1,0 +1,454 @@
+
+.header {
+    position: absolute;
+    background-color: #2196F3;
+    padding: 7.5px 10px;
+    width : 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* Style the header links */
+.header a {
+    font-family: "Roboto";
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style  logo link */
+
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Float link section to right */
+.header-right {
+    position:absolute;
+    right:80px;
+    padding: 15px;
+    width: 70px;
+}
+.header-right2 {
+    position:absolute;
+    right:30px;
+    padding: 15px;
+    width: 70px;
+}
+
+.material-icons.md-18 {
+    font-size: 24px; color:white;
+}
+
+#div_fleche {
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#fleche {
+    font-family:"Material Icons";
+    font-weight:bold;
+    font-size:28px;
+    cursor: pointer;
+    color:#757575;
+    text-decoration: none;
+}
+
+#star_square_normal1 {
+    margin-top: 10px;
+    margin-left: 382px;
+    height : 44px;
+    width: 60px;
+    position: absolute;
+    background-color: rgba(227,227,227);
+    cursor: pointer;
+}
+
+#star_square_normal2 {
+    margin-top: 10px;
+    margin-left: 382px;
+    height : 44px;
+    width: 60px;
+    position: absolute;
+    background-color:white;
+    cursor: pointer;
+}
+
+
+#star_square_replacement {
+    margin-top: 10px;
+    margin-left: 382px;
+    height : 44px;
+    width: 60px;
+    position: absolute;
+    background-color:rgba(121, 121, 122, 1);
+    cursor: pointer;
+}
+
+#star_jaune {
+    font-family: 'Material Icons Bold', 'Material Icons Regular', 'Material Icons';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:#FFFF80;
+    margin-top: 3px;
+    margin-left: 11px;
+    position: absolute;
+    user-select:none;
+}
+
+#star_noire {
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color:black;
+    margin-top: 12px;
+    margin-left: 18px;
+    position: absolute;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(242, 242, 242, 1);
+    justify-content: space-around;
+    text-align: center;
+}
+
+#colonne_de_gauche {
+    width: 500px;
+    height:100%;
+    margin-left: 30px;
+    top: 100px;
+    float: left;
+    text-align: left;
+}
+
+#colonne_de_droite {
+    width: 500px;
+    height:100%;
+    margin-left: 550px;
+    text-align: left;
+}
+
+#colonne_de_gauche2 {
+    width: 500px;
+    height:100%;
+    top: 100px;
+    float: left;
+    margin-left: 25px;
+}
+
+#colonne_de_droite2 {
+    width: 500px;
+    height:100%;
+    float: right;
+    margin-right:35px;
+}
+
+.bloc1 {
+    display:inline-block;
+    width:494px;
+    height:72px;
+    background-color:rgba(227,227,227);
+    padding-left:10px;
+}
+
+.p1 {
+    padding-top: 6px;
+    padding-left: 12px;
+    
+}
+
+.p2 {
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.p3 {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+h2 {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.grey_div {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.bloc2 {
+    text-align: left;
+    display:inline-block;
+    width:492px;
+    height:72px;
+    background-color:white;
+    padding-left:10px;
+    margin-left: auto;
+    margin-right: auto;
+    outline-color: grey;
+    font-size: 20px;
+    border-color:rgba(215,215,215,1);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.SujetsBlocs1, .SujetsBlocs2{
+    position: relative;
+    left: 30px;
+}
+.titre {
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding-left:100px;
+}
+
+.bloc3 {
+    display:inline-block;
+    width:471px;
+    height:224px;
+    background-color:white;
+    padding: 7px 14px 8px 17px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 14px;
+    border-color:rgba(215,215,215,1);
+    border-width: 1px;
+    border-style: solid;
+    text-align:left;
+}
+
+#scroll_bar{
+    height: 780px;
+    overflow: auto;
+    width:1100px;
+    margin-left: 0px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+
+#center {
+    padding-top: 15px;
+    padding-right:13px;
+    width: 472px;
+    padding-bottom: 0px;
+}
+
+#top {
+    display: inline-block;
+}
+
+
+#checkboxDiv {
+    position: absolute;
+    left: 25%;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#div_fleche{
+    position: absolute;
+    top:50px;
+}
+
+.divSujetsCheckbox {
+    width: 200px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#checkboxLigne1, #checkboxLigne2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+#body {
+    position: absolute;
+    top: 180px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .divSujetsCheckbox {
+        width: 200px;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 14px;
+        height: 200px;
+    }
+
+    #checkboxDiv {
+        position: absolute;
+        left: 280px;
+        top: 110px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #checkboxLigne1, #checkboxLigne2 {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    #body {
+        position: absolute;
+        top: 300px;
+        width:100%;
+    }
+
+    #div_fleche{
+        position: absolute;
+        top:70px;
+        left:100px;
+    }
+
+    #scroll_bar{
+        height: 780px;
+        overflow: auto;
+        position: relative;
+        width:900px;
+        margin-left: 0px;
+        border-width: 1px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bloc1 {
+        display:inline-block;
+        width:390px;
+        height:72px;
+        background-color:rgba(227,227,227);
+        padding-left:10px;
+    }
+
+    #star_square_normal1 {
+        margin-top: 7px;
+        margin-left: 280px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color: rgba(227,227,227);
+        cursor: pointer;
+    }
+
+    #star_square_normal2 {
+        margin-top: 7px;
+        margin-left: 280px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color:white;
+        cursor: pointer;
+    }
+
+    #star_square_replacement {
+        margin-top: 7px;
+        margin-left: 280px;
+        height : 47px;
+        width: 65px;
+        position: absolute;
+        background-color:rgba(121, 121, 122, 1);
+        cursor: pointer;
+    }
+
+        
+    .bloc2 {
+        text-align: left;
+        display:inline-block;
+        width:390px;
+        height:73px;
+        background-color:white;
+        border-color: grey;
+        outline-color: grey;
+        font-size: 20px;
+        border-color:rgba(215,215,215,1);
+        border-width: 1px;
+        border-style: solid;
+        justify-content: space-around;
+    }
+
+    .bloc3 {
+        display:inline-block;
+        width:370px;
+        height:350px;
+        background-color:white;
+        text-align: center;
+        font-family: Arial;
+        font-weight: 400;
+        font-size: 14px;
+        border-color:rgba(215,215,215,1);
+        border-width: 1px;
+        border-style: solid;
+        text-align:left;
+        justify-content: space-around;
+    }
+
+    .SujetsBlocs1, .SujetsBlocs2{
+        position: relative;
+        left: 0px;
+    }
+
+    #colonne_de_gauche {
+        width: 400px;
+        height:100%;
+        margin-left:60px;
+        top: 100px;
+        float: left;
+        text-align: left;
+    }
+
+    #colonne_de_droite {
+        width: 500px;
+        height:100%;
+        margin-left: 470px;
+        text-align: left;
+    }
+
+
+    #colonne_de_gauche2 {
+        width: 415px;
+        height:100%;
+        top: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+    
+    #colonne_de_droite2 {
+        width: 400px;
+        height:100%;
+        float: right;
+        margin-right:5px;
+    }
+
+    #center {
+        padding-top: 15px;
+        padding-right:13px;
+        width: 415px;
+        padding-bottom: 0px;
+    }
+    
+}
