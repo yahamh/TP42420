@@ -45,23 +45,6 @@
     font-size: 24px; color:white;
 }
 
-/*
-#div_fleche {
-    margin-left: 12%;
-    margin-top: 0px;
-    position: absolute;
-}
-
-#fleche {
-    font-family:"Material Icons";
-    font-weight:bold;
-    font-size:28px;
-    cursor: pointer;
-    color:#757575;
-    text-decoration: none;
-}
-*/
-
 .sidemenu{
     font-family: Roboto;
     height: 82px; /* 82px */
@@ -90,15 +73,12 @@
 body {
     background-color: rgb(242, 242, 242, 1);
     justify-content: space-around;
-
-    /* text-align: center; */
 }
 
 #principal {
     position: absolute;
     width: 867px;
     height: 1000px;
-    /*932px*/
     background-color: rgba(255, 255, 255, 1);
     border-width: 1px;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.349019607843137);
@@ -118,17 +98,8 @@ body {
     font-size: 18px;
 }
 
-.center {
-    text-align: center;
-}
-
 #button1 {
 
-    /*position: absolute;
-    left: 408px;
-    top: 170px;*/
-
-    
     margin-top: 7.5%; /* 65px */
     margin-left: 25%; /* 241px, 25% ne correspond pas a 241px exactement */
 
@@ -155,11 +126,6 @@ body {
 }
 
 #button2 {
-
-    /*position: absolute;
-    left: 408px;
-    top: 170px;*/
-   
     margin-top: 7.5%; /* 65px */
 
     width: 216px;
@@ -185,13 +151,11 @@ body {
 }
 
 #texte1 {
-    /* padding: 10px 10px 10px 10px; */
     margin-top: 25px;
     color: white;
 }
 
 #texte2 {
-    /* padding: 10px 10px 10px 10px; */
     margin-top: 25px;
     color: rgba(140, 140, 140, 1);;
 }
@@ -205,7 +169,6 @@ body {
 }
 
 #rectangle {
-    /* padding : 5px 5px 5px 5px; */
     margin-top: 10px;
     width: 150px;
     height: 34px;
@@ -229,7 +192,6 @@ body {
     position: absolute;
     width: 830px;
     height: 780px;
-    /*742px*/
     left: 20px;
     top: 190px;
 }
@@ -238,10 +200,8 @@ body {
     position: absolute;
     width: 830px;
     height: 780px;
-    /*742p*/
     left: 20px;
     top: 190px;
-
 }
 
 
@@ -257,22 +217,6 @@ body {
     text-align: center;
 }
 
-/*
-#scrollbar_parti1 {
-    top: 55px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
-
-#test {
-    height: 800px;
-}
-
 #deuxiemeParti {
     position: absolute;
     left: 288px;
@@ -284,19 +228,6 @@ body {
     background-color: rgba(215, 215, 215, 1);
     text-align: center
 }
-
-/*
-#scrollbar_parti2 {
-    left: 288px;
-    top: 55px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
 
 #troisiemeParti {
     position: absolute;
@@ -310,19 +241,6 @@ body {
     text-align: center
 }
 
-/*
-#scrollbar_parti3 {
-    right: 0px;
-    top: 55px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
-
 #quatriemeParti {
     position: absolute;
     top: 275px;
@@ -334,18 +252,6 @@ body {
     background-color: rgba(215, 215, 215, 1);
     text-align: center
 }
-
-/*
-#scrollbar_parti4 {
-    top: 330px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
 
 #cinqiemeParti {
     position: absolute;
@@ -360,19 +266,6 @@ body {
     text-align: center
 }
 
-/*
-#scrollbar_parti5 {
-    left: 288px;
-    top: 330px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
-
 #sixiemeParti {
     position: absolute;
     right: 0px;
@@ -385,19 +278,6 @@ body {
     background-color: rgba(215, 215, 215, 1);
     text-align: center
 }
-
-/*
-#scrollbar_parti6 {
-    right: 0px;
-    top: 330px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
 
 #septiemeParti {
     position: absolute;
@@ -412,32 +292,16 @@ body {
     text-align: center
 }
 
-
-/*
-#scrollbar_parti7 {
-    left: 288px;
-    top: 605px;
-    height: 165px;
-    overflow-y: auto;
-    position: absolute;
-    width:252px;
-    display: inline-block;
-    background-color: red;
-}
-*/
-
 #scrollbar_parti {
     top: 55px;
     height: 165px;
     overflow-y: auto;
     position: absolute;
     width:252px;
-    /* display: inline-block; */
     float: right;
 }
 
 .candidat {
-    
     width: 252px;
     height: 55px;
     display: flex;
@@ -448,12 +312,6 @@ body {
     border-width: 1px;
     border-style: solid;
     border-color: rgba(215, 215, 215, 1);
-
-}
-
-h5 {
-    margin-bottom : 40px;
-    left: 20px;
 }
 
 #myCheckBox {
@@ -484,6 +342,7 @@ h5 {
 }
 
 
+
 .card-4 {
     left: 910px; 
     height: 400px;
@@ -503,7 +362,7 @@ h5 {
 
 .sujetsLabel {
     word-wrap: break-word;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: lighter;
     color: #333333;
@@ -537,22 +396,26 @@ button[disabled] {
 
 #barre_droite {
     position: absolute;
-    left: 820px;    
+    left: 1050px;
+    top: 121px;
 }
 
 #sujetHeader {
     display: flex;
     flex-direction: row;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;   
 }
 
 #sujetsDiv, #actionDiv{
     display:flex;
     flex-direction: column;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
 }
 
 #checkboxSelectAllSujets {
     margin: auto;
     margin-left: 20px;
+    text-align: center;
 }
 
 .cardformat-2 {

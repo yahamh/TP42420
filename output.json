@@ -12,57 +12,57 @@
         [
             {"abreviation": "P.L.C", "fullname": "Parti libéral du Canada", "candidats":
                 [
-                    {"candidat":"candidat1"}, 
-                    {"candidat":"candidat2"}, 
-                    {"candidat":"candidat3"}, 
-                    {"candidat":"candidat4"},
-                    {"candidat":"candidat5"}
+                    {"candidat":"candidat_1"}, 
+                    {"candidat":"candidat_2"}, 
+                    {"candidat":"candidat_3"}, 
+                    {"candidat":"candidat_4"},
+                    {"candidat":"candidat_5"}
                     
                 ]
             },
             {"abreviation": "P.C.C.", "fullname": "Parti conservateur du Canada", "candidats":
                 [
-                    {"candidat":"candidat6"}, 
-                    {"candidat":"candidat7"}, 
-                    {"candidat":"candidat8"}, 
-                    {"candidat":"candidat9"},
-                    {"candidat":"candidat10"}
+                    {"candidat":"candidat_6"}, 
+                    {"candidat":"candidat_7"}, 
+                    {"candidat":"candidat_8"}, 
+                    {"candidat":"candidat_9"},
+                    {"candidat":"candidat_10"}
                 ]
             },
             {"abreviation": "B.Q.", "fullname": "Bloc Québécois", "candidats":
                 [
-                    {"candidat":"candidat11"}, 
-                    {"candidat":"candidat12"}, 
-                    {"candidat":"candidat13"}, 
-                    {"candidat":"candidat14"},
-                    {"candidat":"candidat15"}
+                    {"candidat":"candidat_11"}, 
+                    {"candidat":"candidat_12"}, 
+                    {"candidat":"candidat_13"}, 
+                    {"candidat":"candidat_14"},
+                    {"candidat":"candidat_15"}
                 ]
             },
             {"abreviation": "N.P.D.", "fullname": "Nouveau parti démocratique", "candidats":
                 [
-                    {"candidat":"candidat16"}, 
-                    {"candidat":"candidat17"}, 
-                    {"candidat":"candidat18"}, 
-                    {"candidat":"candidat19"},
-                    {"candidat":"candidat20"}
+                    {"candidat":"candidat_16"}, 
+                    {"candidat":"candidat_17"}, 
+                    {"candidat":"candidat_18"}, 
+                    {"candidat":"candidat_19"},
+                    {"candidat":"candidat_20"}
                 ]
             },
             {"abreviation": "P.V.C.", "fullname": "Parti vert du Canada", "candidats":
                 [
-                    {"candidat":"candidat21"}, 
-                    {"candidat":"candidat22"}, 
-                    {"candidat":"candidat23"}, 
-                    {"candidat":"candidat24"},
-                    {"candidat":"candidat25"}
+                    {"candidat":"candidat_21"}, 
+                    {"candidat":"candidat_22"}, 
+                    {"candidat":"candidat_23"}, 
+                    {"candidat":"candidat_24"},
+                    {"candidat":"candidat_25"}
                 ]
             },
             {"abreviation": "P.P.C.", "fullname": "Parti populaire du Canada", "candidats":
                 [
-                    {"candidat":"candidat26"}, 
-                    {"candidat":"candidat27"}, 
-                    {"candidat":"candidat28"}, 
-                    {"candidat":"candidat29"},
-                    {"candidat":"candidat30"}
+                    {"candidat":"candidat_26"}, 
+                    {"candidat":"candidat_27"}, 
+                    {"candidat":"candidat_28"}, 
+                    {"candidat":"candidat_29"},
+                    {"candidat":"candidat_30"}
                 ]
             }         
         ],
@@ -73,11 +73,11 @@
                 "fullname": "Coalition avenir Quebec",
                 "candidats":
                 [
-                    {"candidat":"candidat31"}, 
-                    {"candidat":"candidat32"}, 
-                    {"candidat":"candidat33"}, 
-                    {"candidat":"candidat34"},
-                    {"candidat":"candidat35"}
+                    {"candidat":"candidat_31"}, 
+                    {"candidat":"candidat_32"}, 
+                    {"candidat":"candidat_33"}, 
+                    {"candidat":"candidat_34"},
+                    {"candidat":"candidat_35"}
                 ]
             },
             {
@@ -85,11 +85,11 @@
                 "fullname": "Parti liberal du Quebec",
                 "candidats":
                 [
-                    {"candidat":"candidat36"}, 
-                    {"candidat":"candidat37"}, 
-                    {"candidat":"candidat38"}, 
-                    {"candidat":"candidat39"},
-                    {"candidat":"candidat40"}
+                    {"candidat":"candidat_36"}, 
+                    {"candidat":"candidat_37"}, 
+                    {"candidat":"candidat_38"}, 
+                    {"candidat":"candidat_39"},
+                    {"candidat":"candidat_40"}
                 ]
             },
             {
@@ -97,11 +97,11 @@
                 "fullname": "Parti quebecois",
                 "candidats":
                 [
-                    {"candidat":"candidat41"}, 
-                    {"candidat":"candidat42"}, 
-                    {"candidat":"candidat43"}, 
-                    {"candidat":"candidat44"},
-                    {"candidat":"candidat45"}
+                    {"candidat":"candidat_41"}, 
+                    {"candidat":"candidat_42"}, 
+                    {"candidat":"candidat_43"}, 
+                    {"candidat":"candidat_44"},
+                    {"candidat":"candidat_45"}
                 ]
             },
             {
@@ -109,11 +109,11 @@
                 "fullname": "Parti vert du Quebec",
                 "candidats":
                 [
-                    {"candidat":"candidat46"}, 
-                    {"candidat":"candidat47"}, 
-                    {"candidat":"candidat48"}, 
-                    {"candidat":"candidat49"},
-                    {"candidat":"candidat50"}
+                    {"candidat":"candidat_46"}, 
+                    {"candidat":"candidat_47"}, 
+                    {"candidat":"candidat_48"}, 
+                    {"candidat":"candidat_49"},
+                    {"candidat":"candidat_50"}
                 ]
             },
             {
@@ -121,11 +121,11 @@
                 "fullname": "Quebec solidaire",
                 "candidats":
                 [
-                    {"candidat":"candidat51"}, 
-                    {"candidat":"candidat52"}, 
-                    {"candidat":"candidat53"}, 
-                    {"candidat":"candidat54"},
-                    {"candidat":"candidat55"}
+                    {"candidat":"candidat_51"}, 
+                    {"candidat":"candidat_52"}, 
+                    {"candidat":"candidat_53"}, 
+                    {"candidat":"candidat_54"},
+                    {"candidat":"candidat_55"}
                 ]
             },
             {
@@ -133,11 +133,11 @@
                 "fullname": "Parti conservateur du Quebec",
                 "candidats":
                 [
-                    {"candidat":"candidat56"}, 
-                    {"candidat":"candidat57"}, 
-                    {"candidat":"candidat58"}, 
-                    {"candidat":"candidat59"},
-                    {"candidat":"candidat60"}
+                    {"candidat":"candidat_56"}, 
+                    {"candidat":"candidat_57"}, 
+                    {"candidat":"candidat_58"}, 
+                    {"candidat":"candidat_59"},
+                    {"candidat":"candidat_60"}
                 ]
             },
             {
@@ -145,11 +145,11 @@
                 "fullname": "Parti pour l'indép. du Quebec",
                 "candidats":
                 [
-                    {"candidat":"candidat61"}, 
-                    {"candidat":"candidat62"}, 
-                    {"candidat":"candidat63"}, 
-                    {"candidat":"candidat64"},
-                    {"candidat":"candidat65"}
+                    {"candidat":"candidat_61"}, 
+                    {"candidat":"candidat_62"}, 
+                    {"candidat":"candidat_63"}, 
+                    {"candidat":"candidat_64"},
+                    {"candidat":"candidat_65"}
                 ]
             }
         ],

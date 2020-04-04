@@ -2,18 +2,22 @@ fetch("http://localhost:3000/data")
     .then(function(resp){
         return resp.json();
     })
-    .then(function (data) {
+    .then(function(data) {
 
+        // creer une liste deroulante
         var liste_deroulante = document.createElement("select");
         liste_deroulante.setAttribute("id", "liste_deroulante");
+        // lui assigner les dates souhaitees par defaut
         var option1 = new Option(data.Elections[0].date);
         var option2 = new Option(data.Elections[2].date);
         liste_deroulante.add(option1);
         liste_deroulante.add(option2);
+        // attacher la liste deroulante a son div parent
         document.getElementById("rectangle").appendChild(liste_deroulante);
 
         
         ///////////////////////////// Partis Federaux /////////////////////////////
+        // parcours des partis federaux
         for (let i = 0; i < data.PartisFederaux.length; i++) {
 
             var div_partiFederal = document.createElement("div");
@@ -57,24 +61,25 @@ fetch("http://localhost:3000/data")
                 // creer le rectangle blanc
                 var div_candidat = document.createElement("div");
                 div_candidat.setAttribute("class", "candidat");
+
                 // attacher le div cree a son div parent
                 div_scrollbar.appendChild(div_candidat);
 
+                // attacher la checkbox creee a son div parent
                 div_candidat.appendChild(creerCheckBoxFederaux());
     
-                var nom_candidat = document.createElement("span");
-                nom_candidat.setAttribute("class", "span_candidat");
-                nom_candidat.innerHTML = data.PartisFederaux[i].candidats[j].candidat;
-
-                div_candidat.appendChild(nom_candidat);
+                // creer et attacher le nom du candidat a son div parent
+                div_candidat.appendChild(creerSpan("span_candidat", data.PartisFederaux[i].candidats[j].candidat));  
             } 
 
         }
 
         ////////////////////////////// Partis Provinciaux ////////////////////////////////
+        // parcours des partis provinciaux
         for (let i = 0; i < data.PartisProvinciaux.length; i++) {
 
             var div_partiProvincial = document.createElement("div");
+
             if(i == 0) {
                 div_partiProvincial.setAttribute("id", "premierParti");
             }
@@ -102,39 +107,45 @@ fetch("http://localhost:3000/data")
             // ajouter le nom complet du parti (ex: Parti Libéral du Canada pour le P.L.C)
             div_partiProvincial.appendChild(creerSpan("span_nomCompletParti", data.PartisProvinciaux[i].fullname));
             
-
+            // attacher le div cree a son div parent du html
             document.getElementById("partisProvinciaux").appendChild(div_partiProvincial);
 
+            // creer le div scrollbar pour le parti en question
             var div_scrollbar = document.createElement("div");
             div_scrollbar.setAttribute("id", "scrollbar_parti");
-
+            // attacher le div cree au div du html
             div_partiProvincial.appendChild(div_scrollbar);
 
+            // parcours des candidats d'un parti
             for (let j = 0; j < data.PartisProvinciaux[i].candidats.length; j++) {
 
+                // creer le rectangle blanc
                 var div_candidat = document.createElement("div");
                 div_candidat.setAttribute("class", "candidat");
+
+                // attacher le div cree a son div parent
                 div_scrollbar.appendChild(div_candidat);
     
+                // attacher la checkbox creee a son div parent
                 div_candidat.appendChild(creerCheckBoxProvinciaux());
 
-                var nom_candidat = document.createElement("span");
-                nom_candidat.setAttribute("class", "span_candidat");
-                nom_candidat.innerHTML = data.PartisProvinciaux[i].candidats[j].candidat;
-
-                div_candidat.appendChild(nom_candidat);
+                // creer et attacher le nom du candidat a son div parent
+                div_candidat.appendChild(creerSpan("span_candidat", data.PartisProvinciaux[i].candidats[j].candidat));
             } 
 
         }
 
         
-
+        // creer les 2 boutons bleu/blanc
         var button1 = document.getElementById("button1");
         var button2 = document.getElementById("button2");
 
         button1.addEventListener("click", function () {
+
+            // #2196F3 est la couleur bleue
             button1.style.backgroundColor = '#2196F3';
 
+            // change le texte de couleur blanc <-> gris
             if (button1.childNodes[1].id == "texte2") {
                 button1.childNodes[1].id = "texte1";
                 button2.childNodes[1].id = "texte2";
@@ -142,7 +153,7 @@ fetch("http://localhost:3000/data")
 
             button2.style.backgroundColor = 'white';
 
-            //var liste = document.getElementById("liste_deroulante");
+            // change les dates dans la liste déroulante
             liste_deroulante.options[0] = new Option (data.Elections[0].date);
             liste_deroulante.options[1] = new Option (data.Elections[2].date);
             
@@ -153,8 +164,11 @@ fetch("http://localhost:3000/data")
         });
 
         button2.addEventListener("click", function () {
+
+            // #2196F3 est la couleur bleue
             button2.style.backgroundColor = '#2196F3';
 
+            // change le texte de couleur blanc <-> gris
             if (button2.childNodes[1].id == "texte2") {
                 button2.childNodes[1].id = "texte1"
                 button1.childNodes[1].id = "texte2"
@@ -162,7 +176,7 @@ fetch("http://localhost:3000/data")
 
             button1.style.backgroundColor = 'white';
             
-            //var liste = document.getElementById("liste_deroulante");
+            // change les dates dans la liste déroulante
             liste_deroulante.options[0] = new Option (data.Elections[1].date);
             liste_deroulante.options[1] = new Option (data.Elections[3].date);
 
