@@ -1,0 +1,184 @@
+{
+    "data":
+    {
+    "Elections":
+        [
+            {"name" : "43e élection fédérale", "date" : "21 octobre 2019", "type": "Federal"},
+            {"name" : "Élections générales provinciales", "date" : "1er octobre 2018", "type": "Provincial"},
+            {"name" : "42e élection fédérale", "date" : "19 octobre 2015", "type": "Federal"},
+            {"name" : "Élections générales provinciales", "date" : "7 avril 2014", "type": "Provincial"}
+        ],
+    "PartisFederaux":
+        [
+            {"abreviation": "P.L.C", "fullname": "Parti libéral du Canada", "candidats":
+                [
+                    {"candidat":"candidat1"}, 
+                    {"candidat":"candidat2"}, 
+                    {"candidat":"candidat3"}, 
+                    {"candidat":"candidat4"},
+                    {"candidat":"candidat5"}
+                    
+                ]
+            },
+            {"abreviation": "P.C.C.", "fullname": "Parti conservateur du Canada", "candidats":
+                [
+                    {"candidat":"candidat6"}, 
+                    {"candidat":"candidat7"}, 
+                    {"candidat":"candidat8"}, 
+                    {"candidat":"candidat9"},
+                    {"candidat":"candidat10"}
+                ]
+            },
+            {"abreviation": "B.Q.", "fullname": "Bloc Québécois", "candidats":
+                [
+                    {"candidat":"candidat11"}, 
+                    {"candidat":"candidat12"}, 
+                    {"candidat":"candidat13"}, 
+                    {"candidat":"candidat14"},
+                    {"candidat":"candidat15"}
+                ]
+            },
+            {"abreviation": "N.P.D.", "fullname": "Nouveau parti démocratique", "candidats":
+                [
+                    {"candidat":"candidat16"}, 
+                    {"candidat":"candidat17"}, 
+                    {"candidat":"candidat18"}, 
+                    {"candidat":"candidat19"},
+                    {"candidat":"candidat20"}
+                ]
+            },
+            {"abreviation": "P.V.C.", "fullname": "Parti vert du Canada", "candidats":
+                [
+                    {"candidat":"candidat21"}, 
+                    {"candidat":"candidat22"}, 
+                    {"candidat":"candidat23"}, 
+                    {"candidat":"candidat24"},
+                    {"candidat":"candidat25"}
+                ]
+            },
+            {"abreviation": "P.P.C.", "fullname": "Parti populaire du Canada", "candidats":
+                [
+                    {"candidat":"candidat26"}, 
+                    {"candidat":"candidat27"}, 
+                    {"candidat":"candidat28"}, 
+                    {"candidat":"candidat29"},
+                    {"candidat":"candidat30"}
+                ]
+            }         
+        ],
+    "PartisProvinciaux":
+        [
+            {
+                "abreviation": "C.A.Q",
+                "fullname": "Coalition avenir Quebec",
+                "candidats":
+                [
+                    {"candidat":"candidat31"}, 
+                    {"candidat":"candidat32"}, 
+                    {"candidat":"candidat33"}, 
+                    {"candidat":"candidat34"},
+                    {"candidat":"candidat35"}
+                ]
+            },
+            {
+                "abreviation": "P.L.Q",
+                "fullname": "Parti liberal du Quebec",
+                "candidats":
+                [
+                    {"candidat":"candidat36"}, 
+                    {"candidat":"candidat37"}, 
+                    {"candidat":"candidat38"}, 
+                    {"candidat":"candidat39"},
+                    {"candidat":"candidat40"}
+                ]
+            },
+            {
+                "abreviation": "P.Q",
+                "fullname": "Parti quebecois",
+                "candidats":
+                [
+                    {"candidat":"candidat41"}, 
+                    {"candidat":"candidat42"}, 
+                    {"candidat":"candidat43"}, 
+                    {"candidat":"candidat44"},
+                    {"candidat":"candidat45"}
+                ]
+            },
+            {
+                "abreviation": "P.V.Q",
+                "fullname": "Parti vert du Quebec",
+                "candidats":
+                [
+                    {"candidat":"candidat46"}, 
+                    {"candidat":"candidat47"}, 
+                    {"candidat":"candidat48"}, 
+                    {"candidat":"candidat49"},
+                    {"candidat":"candidat50"}
+                ]
+            },
+            {
+                "abreviation": "Q.S",
+                "fullname": "Quebec solidaire",
+                "candidats":
+                [
+                    {"candidat":"candidat51"}, 
+                    {"candidat":"candidat52"}, 
+                    {"candidat":"candidat53"}, 
+                    {"candidat":"candidat54"},
+                    {"candidat":"candidat55"}
+                ]
+            },
+            {
+                "abreviation": "P.C.Q",
+                "fullname": "Parti conservateur du Quebec",
+                "candidats":
+                [
+                    {"candidat":"candidat56"}, 
+                    {"candidat":"candidat57"}, 
+                    {"candidat":"candidat58"}, 
+                    {"candidat":"candidat59"},
+                    {"candidat":"candidat60"}
+                ]
+            },
+            {
+                "abreviation": "P.I.Q",
+                "fullname": "Parti pour l'indép. du Quebec",
+                "candidats":
+                [
+                    {"candidat":"candidat61"}, 
+                    {"candidat":"candidat62"}, 
+                    {"candidat":"candidat63"}, 
+                    {"candidat":"candidat64"},
+                    {"candidat":"candidat65"}
+                ]
+            }
+        ],
+    "Sujets":
+        [
+            {
+                "nom": "Environnement"
+            },
+            {
+                "nom": "Education"
+            },
+            {
+                "nom": "Santé et services sociaux"
+            },
+            {
+                "nom": "Arts et culture"
+            },
+            {
+                "nom": "Transport"
+            },
+            {
+                "nom": "Energie"
+            },
+            {
+                "nom": "Immigration"
+            },
+            {
+                "nom": "Economie"
+            }
+        ]
+    }
+}

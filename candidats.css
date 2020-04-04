@@ -1,0 +1,569 @@
+
+.header {
+    position: absolute;
+    background-color: #2196F3;
+    padding: 7.5px 10px;
+    width : 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/* Style the header links */
+.header a {
+    font-family: "Roboto";
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style  logo link */
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Float link section to right */
+.header-right {
+    position:absolute;
+    right:80px;
+    padding: 15px;
+    width: 70px;
+}
+.header-right2 {
+    position:absolute;
+    right:30px;
+    padding: 15px;
+    width: 70px;
+}
+
+.material-icons.md-18 {
+    font-size: 24px; color:white;
+}
+
+/*
+#div_fleche {
+    margin-left: 12%;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#fleche {
+    font-family:"Material Icons";
+    font-weight:bold;
+    font-size:28px;
+    cursor: pointer;
+    color:#757575;
+    text-decoration: none;
+}
+*/
+
+.sidemenu{
+    font-family: Roboto;
+    height: 82px; /* 82px */
+    width: 145px; /* 145px */
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    left: 0;
+    overflow-x: hidden;
+    background: #fff;
+    padding-top: 0px;
+}
+
+.sidemenu a{
+    padding: 6px 6px 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #494848;
+    display: block;
+}
+
+.sidemenu a:hover {
+    background-color: #a09f9f;
+}
+
+body {
+    background-color: rgb(242, 242, 242, 1);
+    justify-content: space-around;
+
+    /* text-align: center; */
+}
+
+#principal {
+    position: absolute;
+    width: 867px;
+    height: 1000px;
+    /*932px*/
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 1px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.349019607843137);
+    left: 214px;
+    top: 121px;
+    display: flex;
+}
+
+#titre {
+    position: absolute;
+    width: 160px;
+    height: 29px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+#button1 {
+
+    /*position: absolute;
+    left: 408px;
+    top: 170px;*/
+
+    
+    margin-top: 7.5%; /* 65px */
+    margin-left: 25%; /* 241px, 25% ne correspond pas a 241px exactement */
+
+    width: 216px;
+    height: 74px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(140, 140, 140, 1);
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+
+    user-select:none;
+
+    float: left;
+}
+
+#button2 {
+
+    /*position: absolute;
+    left: 408px;
+    top: 170px;*/
+   
+    margin-top: 7.5%; /* 65px */
+
+    width: 216px;
+    height: 74px;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(140, 140, 140, 1);
+    border-radius: 5px;
+    color: #8C8C8C;
+    cursor: pointer;
+
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+
+    user-select:none;
+
+    float: right;
+}
+
+#texte1 {
+    /* padding: 10px 10px 10px 10px; */
+    margin-top: 25px;
+    color: white;
+}
+
+#texte2 {
+    /* padding: 10px 10px 10px 10px; */
+    margin-top: 25px;
+    color: rgba(140, 140, 140, 1);;
+}
+
+#adroite {
+    float: right;
+    width: 150px;
+    height: 80px;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+#rectangle {
+    /* padding : 5px 5px 5px 5px; */
+    margin-top: 10px;
+    width: 150px;
+    height: 34px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-align: left;
+}
+
+#liste_deroulante {
+    width: 150px;
+    height: 34px;
+    border: none;
+}
+
+#partisFederaux {
+    position: absolute;
+    width: 830px;
+    height: 780px;
+    /*742px*/
+    left: 20px;
+    top: 190px;
+}
+
+#partisProvinciaux {
+    position: absolute;
+    width: 830px;
+    height: 780px;
+    /*742p*/
+    left: 20px;
+    top: 190px;
+
+}
+
+
+#premierParti {
+    position: absolute;
+    width: 252px;
+    height: 55px;
+    display: flex;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    display: block;
+    text-align: center;
+}
+
+/*
+#scrollbar_parti1 {
+    top: 55px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#test {
+    height: 800px;
+}
+
+#deuxiemeParti {
+    position: absolute;
+    left: 288px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+/*
+#scrollbar_parti2 {
+    left: 288px;
+    top: 55px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#troisiemeParti {
+    position: absolute;
+    right: 0px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+/*
+#scrollbar_parti3 {
+    right: 0px;
+    top: 55px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#quatriemeParti {
+    position: absolute;
+    top: 275px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+/*
+#scrollbar_parti4 {
+    top: 330px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#cinqiemeParti {
+    position: absolute;
+    left: 288px;
+    top: 275px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+/*
+#scrollbar_parti5 {
+    left: 288px;
+    top: 330px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#sixiemeParti {
+    position: absolute;
+    right: 0px;
+    top: 275px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+/*
+#scrollbar_parti6 {
+    right: 0px;
+    top: 330px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#septiemeParti {
+    position: absolute;
+    left: 288px;
+    top: 550px;
+    width: 252px;
+    height: 55px;
+    display: block;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgba(215, 215, 215, 1);
+    text-align: center
+}
+
+
+/*
+#scrollbar_parti7 {
+    left: 288px;
+    top: 605px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    display: inline-block;
+    background-color: red;
+}
+*/
+
+#scrollbar_parti {
+    top: 55px;
+    height: 165px;
+    overflow-y: auto;
+    position: absolute;
+    width:252px;
+    /* display: inline-block; */
+    float: right;
+}
+
+.candidat {
+    
+    width: 252px;
+    height: 55px;
+    display: flex;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color:white;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(215, 215, 215, 1);
+
+}
+
+h5 {
+    margin-bottom : 40px;
+    left: 20px;
+}
+
+#myCheckBox {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 27px;
+    height: 27px;
+}
+
+.span_candidat {
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.span_abreviationParti {
+    margin-right: 105px;
+    margin-top: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+.span_nomCompletParti {
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.537254901960784);
+}
+
+
+.card-4 {
+    left: 910px; 
+    height: 400px;
+    width: 249px;
+}
+
+.card-3 {
+    left: 910px;
+    width: 249px;
+    height: 212px;
+}
+
+.divSujetsCheckbox {
+    height: 40px;
+    width: 230px;
+}
+
+.sujetsLabel {
+    word-wrap: break-word;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.button {
+    font-family: Roboto;
+    background-color: #2096F3; 
+    color: white;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 214px;
+    height: 36px;
+}
+  
+button:disabled,
+button[disabled] {
+    opacity: 0.6;
+    background: gray;
+    color: black;
+}
+
+.cardformat {
+    background: #fff;
+    border-radius: 2px;
+    margin-left: 70px;
+    padding-left: 22px;
+    box-shadow: 2px 1px 3px rgba(0,0,0,0.12), 0  2px rgba(0,0,0,0.24);
+}
+
+#barre_droite {
+    position: absolute;
+    left: 820px;    
+}
+
+#sujetHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+#sujetsDiv, #actionDiv{
+    display:flex;
+    flex-direction: column;
+}
+
+#checkboxSelectAllSujets {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.cardformat-2 {
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding-left: 22px;
+    box-shadow: 2px 1px 3px rgba(0,0,0,0.12), 0  2px rgba(0,0,0,0.24);
+}
+
+.cardbis{
+    display: block;
+}

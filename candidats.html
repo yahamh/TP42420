@@ -2,54 +2,75 @@
 <html>
 
 <head>
-    <title>Home</title>
     <link rel="shortcut icon" href="https://d1h0x9w88ijkiq.cloudfront.net/3679a/images/favicon_play.ico">
-    <link rel="stylesheet" href="index.css">
+    <title> Candidats</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
- 
-
+    <link rel=stylesheet href="candidats.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel='stylesheet'>
+      
 </head>
 
-
 <body>
-    <div class=”pagewrapper”>
-        <div class="header">
-            <a href="index.html" class="logo">PHAROS</a>
 
-            <div class="header-right">
-                <i class="material-icons md-18">search</i>
-            </div>
-
-            <div class="header-right2">
-                <i class="material-icons md-18">more_vert</i>
-            </div>
+    <div class="header">
+        <a href="index.html" class="logo">PHAROS</a>
+        <div class="header-right">
+            <i class="material-icons md-18">search</i>
+        </div>
+        <div class="header-right2">
+            <i class="material-icons md-18">more_vert</i>
         </div>
     </div>
+    
+    <br><br><br><br><br>
+
+    <!-- <div id="div_fleche">
+        <a href="index.html" id="fleche" class="material-icons md-18"> arrow_back </a>    
+    </div> -->
 
     <div class = "sidemenu"> 
-        <a href="index.html"  style="background-color:lightgrey;" > Partis</a>
-        <a href="candidats.html"> Candidats</a>
+        <a href="index.html" > Partis</a>
+        <a href="candidats.html" style="background-color:lightgrey;"> Candidats</a>
     </div>
 
-    <div id="corps">
-        <div class="card cardformat card-1">
-            <div id="election"> </div>
-            <div id="infoCard1"> </div>
+    
+    <div id="principal">
+    
+        <div id="titre"> 
+            <span> Candidats par parti </span>
         </div>
 
-        <div class="card cardformat card-2">
 
-            <div id="dvFederaux">
-                <div id="titre"> </div>
-            </div>
-
-            <div id="dvProvinciaux" style="display: none">
-                <div id="titre2"></div>
-            </div>
-
+        <div id="button1" class = "partiButtons">  
+            <div id="texte1">
+                <span> Partis politiques fédéraux </span>
+            </div>  
         </div>
-        <div class="card">
+
+        <div id="button2" class = "partiButtons">
+            <div id="texte2">
+                <span> Partis politiques provinciaux </span>
+            </div>  
+        </div>
+
+        <div id="adroite">
+            <span> Choisir une date : </span>
+            <div id="rectangle">
+
+                <!-- select id="liste_deroulante">
+                    <option> 19 octobre 2015 </option>
+                    <option> 21 octobre 2019 </option>
+                </select> -->
+                
+            </div>
+        </div>
+
+        <div id="partisFederaux"> </div>
+
+        <div id="partisProvinciaux" style="display: none"> </div>
+
+
+        <div id = barre_droite>
             <div class="cardbis cardformat card-4">
                 <div id="sujetsDiv">
                     <div id="sujetHeader">
@@ -112,7 +133,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="cardbis cardformat-2 card-3">
                 <div id="actionDiv">
                     <h4> Action </h4>
@@ -123,7 +143,13 @@
                 </div>
             </div>
         </div>
+
+
+
+
     </div>
+
+
 </body>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="candidats.js"></script>  
 </html>
