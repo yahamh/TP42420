@@ -78,6 +78,8 @@ html {
     display:flex;
     flex-wrap: wrap;
     width: 80%;
+    margin-left: 10%;
+    
 }
 
 .material-icons.md-18 {
