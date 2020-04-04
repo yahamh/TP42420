@@ -47,6 +47,33 @@ html {
     width: 70px;
 }
 
+.sidemenu{
+    font-family: Roboto;
+    height: 82px;
+    width: 145px;
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    left: 0;
+    overflow-x: hidden;
+    background: #fff;
+    padding-top: 0px;
+}
+
+.sidemenu a{
+    padding: 6px 6px 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #494848;
+    display: block;
+    text-align: left ;
+}
+
+.sidemenu a:hover {
+    background-color: #a09f9f;
+}
+
+
 #corps{
     display:flex;
     flex-wrap: wrap;
@@ -120,7 +147,7 @@ h4 {
 }
 
 .card-3 {
-    left:910px;
+    left: 910px;
     width: 249px;
     height: 212px;
 }
